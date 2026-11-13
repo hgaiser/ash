@@ -1,5 +1,5 @@
 [package]
-name = "ash"
+name = "pixelforge-ash"
 version = "0.38.0+1.4.352"
 authors = [
     "Maik Klein <maikklein@googlemail.com>",
@@ -8,7 +8,7 @@ authors = [
 ]
 description = "Vulkan bindings for Rust"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/ash-rs/ash"
+repository = "https://github.com/hgaiser/ash"
 readme = "../README.md"
 keywords = ["gamedev", "graphics", "vulkan", "bindings"]
 categories = [
@@ -20,6 +20,9 @@ categories = [
 ]
 edition = "2021"
 rust-version = "1.69.0"
+
+[lib]
+name = "ash"
 
 [dependencies]
 libloading = { version = "0.8", optional = true }
